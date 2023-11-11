@@ -22,7 +22,7 @@ sobre.addEventListener("click", () => {
 
 
   myproduct.addEventListener("click", () => {
- janela.innerHTML = `<div><div><a href="icone/CA-REB.png" download>baxe</a></div></div>`;
+ janela.innerHTML = `<div><div><a href="icone/CA-REB.png" download>baxe</a></div> </div>`;
   });
 
 
