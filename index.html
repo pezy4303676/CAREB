@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal.css">
+    <title>Document</title>
+</head>
+<body id="body">
+    <div id="MODALoccunt">
+        <button id="btnclosemodal">X</button>
+        <div id="teladecada">
+            <div id="anuncio" style="display: flex; align-items: center;">
+            <div id="videorepro">
+              <video src="videos/Como se cadastra no CA-REB.mp4" style="width: 330px; height: 200px; " id="videos"></video>
+              <button id="playpause"><img src="icone/1564490_arrow_music_play_arrows_audio_icon.svg" style="width: 40px; fill: white;"></button>
+            </div>
+            </div>
+            <form action="" id="itens">
+              <h2 id="h2">Cadastra-se</h2>
+              <br>
+              <br>
+              <br>
+              <br>
+              <div id="ins">
+                
+                <div id="ghh" style="width: max-content;margin: 0 auto;">
+      <input type="text" placeholder="Insira seu nome" id="Name">
+                <br>
+                  <span style="color: red; font-family: system-ui; font-size: 12px;" id="NameValid"></span>
+                <br>
+              <input type="date" id="inpdate">
+                <br>
+                <br>
+              <input type="text" id="Email" onkeyup="emailvald()" placeholder="Crie um email" value="DanielNues585@CAREB.com">
+                  <br>
+                  <span style="color: red; font-family: system-ui; font-size: 12px;" id="EmailValid"></span>
+                <br>
+      
+              <input type="password" placeholder="Crie uma password" id="password" >
+                  <button style="background-color: transparent; outline: none; border: none; position: relative; z-index: 10px; right: 40px; top: 5px;"  id="BTNeye" onclick="passwordryer()">  <svg style="width: 20px; height: 20px;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye-off"><path d="M9.88 9.88a3 3 0 1 0 4.24 4.24" style="color: white;"/><path d="M10.73 5.08A10.43 10.43 0 0 1 12 5c7 0 10 7 10 7a13.16 13.16 0 0 1-1.67 2.68" style="color: white;"/><path d="M6.61 6.61A13.526 13.526 0 0 0 2 12s3 7 10 7a9.74 9.74 0 0 0 5.39-1.61" style="color: white;"/><line x1="2" x2="22" y1="2" y2="22" style="color: white;" /></svg></button>
+                  <br>
+                  <span style="color: red; font-family: system-ui; font-size: 12px;" id="PsswordValid"></span>
+                  <br>
+                  <button type="submit" style="background-color: #6c6cf9; border: 1px solid blue; padding: 5.5px; border-radius: 5px; color: white; font-family:system-ui;">Entrar</button>
+                  <br>
+                  </div>
+                </div>
+            </form>
+          </div>
+    </div>
+        <div class="menubar">
+        <ul>
+            <li style="    display: flex; align-items: center; gap: 8px;" class="hoverli" id="homelink"><img src="icone/casa.png" width="30px" height="30px" draggable="false"> Home</li>
+            <br>
+            <li style="    display: flex; align-items: center; gap: 8px;" class="hoverli" id="linksobre"><img src="icone/informacoes.png" width="30px" height="30px" draggable="false"> Sobre</li>
+            <br>
+            <li style="    display: flex; align-items: center; gap: 8px;" class="hoverli" id="cart"><img src="icone/carrinho-de-compras.png" width="30px" height="30px" draggable="false"> Carrinho</li>
+            <ul id="spancart"></ul>
+            <br>
+            <li style="    display: flex; align-items: center; gap: 8px;" class="hoverli" id="Carteiralink"><img src="icone/carteira.png" width="30px" height="30px" draggable="false"> Carteira</li>
+            <br>
+            <li style="    display: flex; align-items: center; gap: 8px;" class="hoverli" id="myproduct"><img src="icone/informacoes.png" width="30px" height="30px" draggable="false"> Seus produtos</li>
+            <br>
+           
+        </ul>
+        </div>
+        <div class="visible" id="Document">
+          <div style="display: flex; align-items: center; width: 100%; height: 100%;">
+          <div style="background: transparent; width: max-content; height: max-content; margin: 0 auto; flex-direction: column; align-items: center; display: flex;">
+          <h1 style="margin: 0; text-align: center; font-family:sans-serif; font-size: 140px; color: #6c6cf9;">404</h1>
+          <span style="color: #6c6cf9; font-family: sans-serif; font-size: 30px;">pagina não encontrada a bolas</span>
+        </div>
+        </div>
+        </div>
+        <div class="nenuconta">
+            <div id="foundselect">
+            <input type="file" accept="image/png, image/jpeg, image/jpg" id="Select">
+            <label for="Select" ><img draggable="false" src="" id="spanimg" style="height: 100%; width: 100%; border-radius: 8px;  cursor: pointer;"></label>
+        </div>
+<br>
+<div style="font-family: system-ui; color: white; font-size: 10px; gap: 0px; flex-direction: column; align-items: center; display: flex; background-color: aliceblue; width: 80%; margin: 0 auto; border-radius: 8px; height: 45px;">
+<span id="namespan"></span>
+        <br>
+        <span id="emailspan"></span>
+        <br>
+    </div>
+            
+       <div style="position: relative; top: 20px; display: flex; align-items: center; width: max-content; height: max-content; margin: 0 auto;"><button id="openmodal">crie sua conta</button></div>
+      <br>
+       <br>
+       <div style="width: 95%; margin: 0 auto; border: 1px solid aliceblue; height: 300px; border-radius: 8px; "><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d252305.89997689726!2d13.284104499999998!3d-8.853532349999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2sao!4v1699712136438!5m2!1spt-PT!2sao" width="100%" height="300px" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe></div>
+        </div>
+        <script src="API.js"></script>
+        <script src="pages.js"></script>
+          <script src="script.js"></script>
+          <script src="modal.js"></script>
+</body>
+<script>
+  nomeprod.innerHTML = localStorage.getItem("NOMEvalue");
+
+
+
+  Name.addEventListener("keyup", () => {
+
+  localStorage.setItem('NOMEvalue', Name.value)
+nomeprod.innerHTML = localStorage.getItem("NOMEvalue");
+});
+</script>
+</html>
