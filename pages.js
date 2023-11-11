@@ -16,7 +16,7 @@ sobre.addEventListener("click", () => {
 
 
   homelink.addEventListener("click", () => {
-    janela.innerHTML = `<div id="foundpage"><div id="fdfd"><div id="coletar">colotar<br><hr></div><div id="coletar">fgf</div><br><br></div><br><br><div><div id="ooo">bnb</div></div>     </div>`;
+    janela.innerHTML = `<div id="foundpage"><div id="fdfd"><div id="coletar">colotar<br></div><div id="coletar">fgf</div><br><br></div><br><br><div><div id="ooo">bnb</div></div>     </div>`;
   });
 
 
