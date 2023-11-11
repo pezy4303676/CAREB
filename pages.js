@@ -22,7 +22,7 @@ sobre.addEventListener("click", () => {
 
 
   myproduct.addEventListener("click", () => {
- janela.innerHTML = "<h1>produtos do </h1> <span id='nomeprod'></span>";
+ janela.innerHTML = `<div></div>`;
   });
 
 
