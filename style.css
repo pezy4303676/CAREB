@@ -137,6 +137,19 @@ border-radius: 10px;
         width: 700px;
     }
     .imgs {
+        opacity: 0;
+        transition: opacity .2s;
         width: 100%;
         position: absolute;
+        border-radius: 8px;
+    }
+    .on{
+        opacity: 1;
+    }
+    #prev-button, #next-button {
+        width: 30px;
+        height: 30px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
     }
