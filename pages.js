@@ -22,7 +22,7 @@ sobre.addEventListener("click", () => {
 
 
   myproduct.addEventListener("click", () => {
- janela.innerHTML = `<div class="carrossel"><div class="container" id="img"><img  id="imgs"  src="icone/capa1.jpg"><img id="imgs" src="icone/capa1.jpg"><imgid="imgs"  src="icone/capa1.jpg"></div></div>`;
+ janela.innerHTML = `<div class="carrossel"><button id="prev-button">prev</button><div class="container" class="img"><img  class="imgs"  src="icone/capa1.jpg"><img class="imgs" src="icone/CA-REB.png"><img class="imgs"  src="icone/capa1.jpg"></div><button id="next-button">prev</button></div>`;
   });
 
 
