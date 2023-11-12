@@ -22,7 +22,7 @@ sobre.addEventListener("click", () => {
 
 
   myproduct.addEventListener("click", () => {
- janela.innerHTML = `<div style="background-color: white; display: flex; align-items: center; gap: 10px; overflow-x: scroll; width: 90%; height: 85%; margin: 0 auto;"> <div id="product1found"><img src="icone/capa1.jpg" height="400px" width="250px"><br><br><a href="icone/careb.vercel.app.pdf" download>baxe</a></div><div id="product1found"><img src="icone/capa1.jpg" height="400px" width="250px"><br><br><a href="icone/careb.vercel.app.pdf" download>baxe</a></div><div id="product1found"><img src="icone/capa1.jpg" height="400px" width="250px"><br><br><a href="icone/careb.vercel.app.pdf" download>baxe</a></div><div id="product1found"><img src="icone/capa1.jpg" height="400px" width="250px"><br><br><a href="icone/careb.vercel.app.pdf" download>baxe</a></div> </div>`;
+ janela.innerHTML = `<div style="background-color: white; display: flex; align-items: center; gap: 10px; overflow-x: scroll; width: 90%; height: 85%; margin: 0 auto; border-radius: 10px;"> <div id="product1found"><img src="icone/capa1.jpg" height="400px" width="250px"><br><br><a href="icone/careb.vercel.app.pdf" download>baxe</a></div><div id="product1found"><img src="icone/capa1.jpg" height="400px" width="250px"><br><br><a href="icone/careb.vercel.app.pdf" download>baxe</a></div><div id="product1found"><img src="icone/capa1.jpg" height="400px" width="250px"><br><br><a href="icone/careb.vercel.app.pdf" download>baxe</a></div><div id="product1found"><img src="icone/capa1.jpg" height="400px" width="250px"><br><br><a href="icone/careb.vercel.app.pdf" download>baxe</a></div> </div>`;
   });
 
 
