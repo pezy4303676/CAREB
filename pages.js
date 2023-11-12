@@ -22,7 +22,7 @@ sobre.addEventListener("click", () => {
 
 
   myproduct.addEventListener("click", () => {
- janela.innerHTML = `<div id="rtrt" style="width: 100%; height: 100%; display: flex; align-items: center;"> <div style="box-shadow: 0px 17px 30px -24px rgba(0,0,0,0.98);  background-color: white; display: flex; align-items: center; gap: 10px; overflow-x: scroll; width: 90%; height: 85%; margin: 0 auto; border-radius: 10px; padding: 8px;" id="rerer"> <div id="product1found"><img src="icone/capa1.jpg" height="400px" width="250px"><br><br><a href="icone/careb.vercel.app.pdf" download>baxe</a></div><div id="product1found"><img src="icone/capa1.jpg" height="400px" width="250px"><br><br><a href="icone/careb.vercel.app.pdf" download>baxe</a></div><div id="product1found"><img src="icone/capa1.jpg" height="400px" width="250px"><br><br><a href="icone/careb.vercel.app.pdf" download>baxe</a></div><div id="product1found"><img src="icone/capa1.jpg" height="400px" width="250px"><br><br><a href="icone/careb.vercel.app.pdf" download>baxe</a></div> </div></div>`;
+ janela.innerHTML = `<div class="carrossel><div class="container id="img"><img src="icone/capa1.jpg" height="400px" width="250px"><br><br><a href="icone/careb.vercel.app.pdf" download>baxe</a></div></div></div>`;
   });
 
 
