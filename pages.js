@@ -22,7 +22,7 @@ sobre.addEventListener("click", () => {
 
 
   myproduct.addEventListener("click", () => {
- janela.innerHTML = `<div><div><a href="icone/careb.vercel.app.pdf" download>baxe</a></div> </div>`;
+ janela.innerHTML = `<div> <div><img src="icone/capa1.jpg" height="400px" width="250px"><a href="icone/careb.vercel.app.pdf" download>baxe</a></div> </div>`;
   });
 
 
