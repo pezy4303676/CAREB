@@ -119,37 +119,4 @@ border-radius: 10px;
     background-color: blue;
     }
 
-    .carrossel {
-        position: relative;
-        display: flex;
-        width: 100%;
-        height: 100%;
-        align-items: center;
-        justify-content: center;
-        gap: 1rem;
-    }
-
-    .container {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 700px;
-    }
-    .imgs {
-        opacity: 0;
-        transition: opacity .2s;
-        width: 100%;
-        position: absolute;
-        border-radius: 8px;
-    }
-    .on{
-        opacity: 1;
-    }
-    #prev-button, #next-button {
-        width: 30px;
-        height: 30px;
-        border: none;
-        background-color: transparent;
-        cursor: pointer;
-    }
+   

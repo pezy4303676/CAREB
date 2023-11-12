@@ -6,7 +6,7 @@ let Carteiralink = document.getElementById("Carteiralink");
 let myproduct = document.getElementById("myproduct");
 let homelink = document.getElementById("homelink");
 let nomeprod = document.getElementById("nomeprod");
-
+  
 
 
 sobre.addEventListener("click", () => {
@@ -22,7 +22,7 @@ sobre.addEventListener("click", () => {
 
 
   myproduct.addEventListener("click", () => {
- janela.innerHTML = `<div class="carrossel"><button id="prev-button">prev</button><div class="container" id="img"><img  class="imgs on"  src="icone/Screenshot-20231109185100 (1).png"><img class="imgs" src="icone/Screenshot-20231109185100.png"><img class="imgs"  src="icone/Screenshot-20231109190521.png"></div><button id="next-button">prev</button></div>`;
+ janela.innerHTML = `hyufghfg`;
   });
 
 
@@ -48,3 +48,6 @@ sobre.addEventListener("click", () => {
   
   })
   
+
+
+

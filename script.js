@@ -36,7 +36,3 @@ window.onload = function (){
 }
 
 
-
-const slider = document.querySelectorAll(".imgs");
-const btnPrev = document.getElementById("prev-button");
-const btnNext = document.getElementById("next-button");
