@@ -1,0 +1,11 @@
+@media screen and (max-width: 600px) {
+    
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+html,body{
+    margin: 0;
+    height: 100%;
+}
+body{
+    display: block;
+}
+}
