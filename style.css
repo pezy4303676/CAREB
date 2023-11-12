@@ -18,12 +18,18 @@ font-family: 'Nunito', sans-serif;
 .menubar > ul {
     list-style: none;
 }
+.hoverli{
+
+
+}
  .hoverli:hover {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     transition: 1.5s;
     padding: 8px;
    background-color: aliceblue;
+   box-shadow:inset 10px 10px 5px lightblue ;
+
 }
 
 
