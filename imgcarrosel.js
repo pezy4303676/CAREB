@@ -9,7 +9,7 @@ function carrossel(){
     if(idx > img.length - 1){
         idx = 0;
     }
-    imgs.style.transform ="translateX(${-idx * 313.33}px)";
+    imgs.style.transform =`translateX(${-idx * 313.33}px)`;
 }
 
 setInterval(carrossel, 1800);
