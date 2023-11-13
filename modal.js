@@ -13,9 +13,9 @@ let MODALoccunt = document.getElementById("MODALoccunt");
 let abrirmodal = document.getElementById("openmodal");
 
 
-
 emailspan.innerHTML = localStorage.getItem("valoremail");
 namespan.innerHTML = localStorage.getItem("valor");
+
 
 Email.addEventListener("keyup", ()=>{
     localStorage.setItem('valoremail', Email.value)
@@ -23,19 +23,31 @@ Email.addEventListener("keyup", ()=>{
 })
 
 Name.addEventListener("keyup", () => {
-  if (Name.value.length <= 3) {
+  const nameString = Name.value.toString();
+  if (nameString.length <= 3) {
     NameValid.innerHTML =`Invalid Name`;
   } else {
     NameValid.innerHTML =``;
   }
 
-  localStorage.setItem('valor', Name.value)
+  localStorage.setItem('valor', nameString)
   namespan.innerHTML = localStorage.getItem("valor");
-
-
   localStorage.setItem('NOMEvalue', Name.value)
 nomeprod.innerHTML = localStorage.getItem("NOMEvalue");
 });
+
+//Name.addEventListener("keyup", () => {
+ // if (Name.value.length <= 3) {
+ //   NameValid.innerHTML =`Invalid Name`;
+ // } else {
+ //   NameValid.innerHTML =``;
+ // }
+
+ // localStorage.setItem('valor', Name.value)
+ // namespan.innerHTML = localStorage.getItem("valor");
+ // localStorage.setItem('NOMEvalue', Name.value)
+//nomeprod.innerHTML = localStorage.getItem("NOMEvalue");
+//});
 
 password.addEventListener("keyup", () => {
   if (password.value.length <= 8) {
