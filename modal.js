@@ -35,20 +35,6 @@ Name.addEventListener("keyup", () => {
   localStorage.setItem('NOMEvalue', Name.value)
 nomeprod.innerHTML = localStorage.getItem("NOMEvalue");
 });
-
-//Name.addEventListener("keyup", () => {
- // if (Name.value.length <= 3) {
- //   NameValid.innerHTML =`Invalid Name`;
- // } else {
- //   NameValid.innerHTML =``;
- // }
-
- // localStorage.setItem('valor', Name.value)
- // namespan.innerHTML = localStorage.getItem("valor");
- // localStorage.setItem('NOMEvalue', Name.value)
-//nomeprod.innerHTML = localStorage.getItem("NOMEvalue");
-//});
-
 password.addEventListener("keyup", () => {
   if (password.value.length <= 8) {
     PsswordValid.innerHTML =`Password must be at least 8 characters`;
