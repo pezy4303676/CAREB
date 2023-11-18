@@ -1,0 +1,23 @@
+<input type="text" id="INPtext" placeholder="crie um">
+ <button id="btncriar">criar</button>
+ <span id="pdor"></span>
+<script>
+     let INPtext = document.getElementById("INPtext");
+ let pdor = document.getElementById("pdor");
+ let btncriar = document.getElementById("btncriar");
+ 
+ let localData = [];
+ 
+ btncriar.addEventListener("click", function() {
+   let p = document.createElement("p");
+   p.textContent = INPtext.value;
+   pdor.appendChild(p);
+ 
+   localData.push(INPtext.value);
+   localStorage.setItem("localData", JSON.stringify(localData));
+ });
+ 
+ INPtext.value = "";
+ 
+
+</script>
