@@ -128,3 +128,8 @@ border-radius: 10px;
 #rerer::-webkit-scrollbar-thumb {
     background-color: blue;
     }
+
+    li > a {
+text-decoration: none;
+color: #ffff;
+    }
