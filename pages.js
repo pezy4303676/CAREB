@@ -22,7 +22,17 @@ sobre.addEventListener("click", () => {
 
 
   myproduct.addEventListener("click", () => {
- janela.innerHTML = `hyufghfg`;
+ janela.innerHTML = `<input type="text" id="INPtext" placeholder="crie um"> <button id="btncriar">criar</button><span id="pdor"></span>`;
+
+ 
+let INPtext = document.getElementById("INPtext");
+let pdor = document.getElementById("pdor");
+let btncriar = document.getElementById("btncriar");
+btncriar.addEventListener("click", addprodd)
+
+function addprodd(){
+    pdor.innerHTML += `<p>${INPtext.value}</p>`;
+}
   });
 
 
@@ -51,5 +61,4 @@ sobre.addEventListener("click", () => {
 
 
 sessionStorage.setItem("exemplo", "pezy")
-
 
