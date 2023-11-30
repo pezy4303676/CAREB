@@ -9,30 +9,30 @@ let nomeprod = document.getElementById("nomeprod");
   
 
 
-sobre.addEventListener("click", () => {
-    janela.innerHTML = "<h1>sobre</h1>";
-  });
+//sobre.addEventListener("click", () => {
+ //   janela.innerHTML = "<h1>sobre</h1>";
+ // });
 
 
-  Carteiralink.addEventListener("click", () => {
-    janela.innerHTML = "<h1>carteira</h1>";
-  });
+  //Carteiralink.addEventListener("click", () => {
+ //   janela.innerHTML = "<h1>carteira</h1>";
+ // });
 
 
 
-  carrinho.addEventListener("click", () => {
+ // carrinho.addEventListener("click", () => {
   
-    if (spancart.innerHTML == ``) {
+    //if (spancart.innerHTML == ``) {
       
-  spancart.innerHTML =`<br><li style="    display: flex; align-items: center; gap: 8px;"  class="hoverli"><img src="icone/cronograma.png" width="30px" height="30px" draggable="false">   pendentes</li><br><li style="    display: flex; align-items: center; gap: 8px;" class="hoverli"> <img src="icone/calendario.png" width="30px" height="30px" draggable="false"> pagos</li>`
-    } else {
+ // spancart.innerHTML =`<br><li style="    display: flex; align-items: center; gap: 8px;"  class="hoverli"><img src="icone/cronograma.png" width="30px" height="30px" draggable="false">   pendentes</li><br><li style="    display: flex; align-items: center; gap: 8px;" class="hoverli"> <img src="icone/calendario.png" width="30px" height="30px" draggable="false"> pagos</li>`
+  //  } else {
       
-  spancart.innerHTML =``
-    }
+ // spancart.innerHTML =``
+   // }
 
-    janela.innerHTML = "<h1>carrinho</h1>";
+   // janela.innerHTML = "<h1>carrinho</h1>";
   
-  })
+ // })
   
 
 
